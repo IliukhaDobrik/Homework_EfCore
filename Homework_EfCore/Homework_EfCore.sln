@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework_EfCore", "Homework_EfCore\Homework_EfCore.csproj", "{AC3C5714-61FC-4315-83BD-BF62F549B010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{44841D40-4DC0-4FED-B975-53E3ABFB87A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{44841D40-4DC0-4FED-B975-53E3ABFB87A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{CC4C031C-5F57-4D50-80DE-F89F59CD50F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{44841D40-4DC0-4FED-B975-53E3ABFB87A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44841D40-4DC0-4FED-B975-53E3ABFB87A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44841D40-4DC0-4FED-B975-53E3ABFB87A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4C031C-5F57-4D50-80DE-F89F59CD50F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4C031C-5F57-4D50-80DE-F89F59CD50F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4C031C-5F57-4D50-80DE-F89F59CD50F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4C031C-5F57-4D50-80DE-F89F59CD50F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

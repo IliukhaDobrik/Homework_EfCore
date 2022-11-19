@@ -10,8 +10,8 @@ namespace Entities
     {
         public Guid UserBookId { get; set; }
         public Guid? UserId { get; set; }
-        public Guid? AuthorId { get; set; }
-        public ICollection<Book> Books { get; set;}
-        public ICollection<User> Users { get;}
+        public Guid? BookId { get; set; }
+        public Book Book { get; set;}
+        public User User { get;}
     }
 }

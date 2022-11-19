@@ -1,6 +1,11 @@
+using DataLayer.Extensions;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDatabase(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 var app = builder.Build();
 
