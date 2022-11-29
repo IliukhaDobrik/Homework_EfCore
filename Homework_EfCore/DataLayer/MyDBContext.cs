@@ -8,7 +8,6 @@ namespace DataLayer
     {
         public MyDBContext(DbContextOptions<MyDBContext> options) : base(options)
         {
-
         }
 
         public DbSet<Author> Authors { get; set; }
